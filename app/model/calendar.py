@@ -37,12 +37,7 @@ class Event:
             reminder_not_found_error()
 
     def __str__(self):
-        return f"""
-ID: {self.id}
-Event title: {self.title}
-Description: {self.description}
-Time: {self.start_at} - {self.end_at}
-""".strip()
+        return f'ID: {self.id}\ Event title: {self.title}\ Description: {self.description}\ Time: {self.start_at} - {self.end_at} '
 
 
 class Day:
